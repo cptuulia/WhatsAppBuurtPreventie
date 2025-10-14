@@ -1,0 +1,104 @@
+/**
+* Top buttons for user groups
+*/
+
+.WhatsAppBuurtPreventieTopButtons {
+    height: 250px !important;
+
+}
+
+.WhatsAppBuurtPreventieTopButtons .fusion-button {
+    width: 100%;
+}
+
+/**
+* Fixed height for the district agents
+*/
+.districtAgent {
+    height: 400px !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .districtAgent {
+        height: 450px !important;
+    }
+}
+
+/**
+* Block 
+* Er zijn in Nederland al meer dan 10.000 groepen opgericht.
+* Schrijf je nu, want ook jij verdient het om in een veilige buurt te wonen.
+* 
+* Fixed height for the sections in the bock
+* 
+*/
+.userGroupText {
+    height: 75px !important;
+    overflow: hidden;
+}
+
+
+/**
+* Latest News
+*
+* Fixed image heights and titles below the images
+* 
+*/
+.homePageLatestNews .fusion-column h4 {
+    width: 100% !important;
+}
+
+
+.homePageLatestNews .fusion-flexslider {
+    overflow: visible;
+    width: 100% !important;
+    height: 300px !important;
+    overflow-y: hidden;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .homePageLatestNews .fusion-flexslider {
+        height: 150px !important;
+
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .homePageLatestNews .fusion-flexslider {
+
+        height: auto
+    }
+}
+
+/**
+* Latest News
+*
+* Fixed image heights and titles below the images
+* 
+*/
+.newsLetterForm {
+    margin-top: 20px;
+    height: 300px !important;
+    overflow: hidden;
+}
+
+.newsLetterForm input[type=text],
+.newsLetterForm input[type=email] {
+    border: 1px solid #0E6ACE !important;
+
+
+}
+
+.newsLetterForm input[type=submit] {
+    background-color: #0E6ACE !important;
+    border: none;
+    font-family: Assistant, Arial, Helvetica, sans-serif !important;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px !important;
+}
