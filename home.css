@@ -25,6 +25,36 @@
 }
 
 /**
+* Mobile Top buttons for user groups
+*/
+
+
+.mobileHomeButtons .fusion-button {
+
+ width: 100% !important;
+ margin-top: 1px;
+}
+
+.mobileHomeButtons .fusion-content-boxes {
+    padding-bottom: 1px !important;
+    margin-bottom: 0px !important;
+}
+
+.fusion-column {
+    margin-bottom: 10px !important;
+}
+.mobileHomeButtons .fusion-content-boxes .content-container{
+    margin-bottom: 0px !important;
+    line-height: 20px !important;
+}
+
+.mobileHomeButtons .content-box-wrapper {
+ padding: 5px !important;
+ margin-bottom: 0px !important;
+}
+
+
+/**
 * Block 
 * Er zijn in Nederland al meer dan 10.000 groepen opgericht.
 * Schrijf je nu, want ook jij verdient het om in een veilige buurt te wonen.
@@ -60,22 +90,24 @@
 @media screen and (max-width: 1024px) {
     .homePageLatestNews .fusion-flexslider {
         height: 150px !important;
-
+    }
+}
+@media screen and (max-width: 767px) {
+    .homePageLatestNews .fusion-flexslider {
+        height: 450px !important;
     }
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 400px) {
     .homePageLatestNews .fusion-flexslider {
-
-        height: auto
+        height: 200px !important;
     }
 }
 
 /**
-* Latest News
+* News letter form
 *
-* Fixed image heights and titles below the images
 * 
 */
 .newsLetterForm {
@@ -87,8 +119,6 @@
 .newsLetterForm input[type=text],
 .newsLetterForm input[type=email] {
     border: 1px solid #0E6ACE !important;
-
-
 }
 
 .newsLetterForm input[type=submit] {
