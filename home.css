@@ -133,3 +133,7 @@
     letter-spacing: 3px;
     font-size: 13px !important;
 }
+
+.smilePhoto img{
+    width: 100% !important;
+}
