@@ -1,0 +1,35 @@
+.fusion-footer .recent-posts-content h4 {
+    font-size: 16px !important;
+}
+
+.fusion-footer .recent-posts-content {
+    margin: 0px !important;
+    margin-top: -10px !important;
+    margin-bottom: -10px !important;
+    padding: 0px !important;
+}
+
+.fusion-footer .fusion-columns {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.fusion-footer .fusion-column {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.wabnl-footer-column{
+    line-height: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+.wabnl-footer-column{
+    line-height: 25px;
+}
+}
+
+.wabnl-footer-column p{
+    line-height: 15px;
+    margin: 0px !important;
+} 
